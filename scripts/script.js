@@ -10,8 +10,8 @@ $(document).ready(function() {
         
     })
 
-
-    $(".portfolio-item").click(function(){     
+  
+    $(".portfolio-item").hover(function(){     
     
         let termId = $(this).attr("id");
         let termDefinitionId = termId + "-desc";     

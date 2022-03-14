@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    line-height: 2;
 
 }
 
@@ -22,3 +23,19 @@ body{
 }
 
 #scroll-img{ margin-top: 15rem; }
+
+
+
+
+.about-us{
+
+    height: 40vh;
+
+}
+
+.services{
+    
+    color: white;
+    height: 50vh;
+    padding-top: 2.5rem;
+}

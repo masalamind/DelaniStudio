@@ -93,10 +93,10 @@ body{
     border: 10px solid white; 
 }
 
-.grey-portfolio{ background-image: url("../images/portfolio/work1.jpg"); }
-.mighty-portfolio{ background-image: url("../images/portfolio/work2.jpg"); }
-.orange-portfolio{ background-image: url("../images/portfolio/work3.jpg"); }
-.brave-portfolio{ background-image: url("../images/portfolio/work4.jpg"); }
+.grey-portfolio{ background-image: url("../images/portfolio/work4.jpg"); }
+.mighty-portfolio{ background-image: url("../images/portfolio/work3.jpg"); }
+.orange-portfolio{ background-image: url("../images/portfolio/work2.jpg"); }
+.brave-portfolio{ background-image: url("../images/portfolio/work1.jpg"); }
 .good-portfolio{ background-image: url("../images/portfolio/work5.jpg"); }
 .ems-portfolio{ background-image: url("../images/portfolio/work6.jpg"); }
 .burned-portfolio{ background-image: url("../images/portfolio/work7.jpg"); }

@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
 
     margin: 0;
     padding: 0;
     line-height: 2;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -78,6 +81,11 @@ body{
     background-color: url("../images/portfolio/work1.jpg");
 }
 
+.portfolio-item-spacer{ 
+    border: 10px solid white; 
+
+}
+
 .grey-portfolio{ background-image: url("../images/portfolio/work1.jpg"); }
 .mighty-portfolio{ background-image: url("../images/portfolio/work2.jpg"); }
 .orange-portfolio{ background-image: url("../images/portfolio/work3.jpg"); }
@@ -86,3 +94,31 @@ body{
 .ems-portfolio{ background-image: url("../images/portfolio/work6.jpg"); }
 .burned-portfolio{ background-image: url("../images/portfolio/work7.jpg"); }
 .bailey-portfolio{ background-image: url("../images/portfolio/work8.jpg"); }
+
+
+.email{
+    height: 70vh;
+    color: white;
+}
+
+form input, textarea{
+
+    background-color: rgba(0,0,0,0);
+    border: solid 2px white; 
+    color: white; 
+
+}
+
+form label{ color: white; }
+
+form input{ width: 100%;}
+
+footer ul li{
+    display: inline-flex;
+}
+
+#message-lbl{
+    display: relative;
+    top: 20px;
+
+}

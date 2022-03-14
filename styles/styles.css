@@ -166,3 +166,13 @@ footer ul li{ display: inline-flex; }
 .card-img:hover{ cursor:pointer; }
 
 .center-txt{ text-align: center; }
+
+
+/* Style form placeholder text */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+

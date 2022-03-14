@@ -20,6 +20,7 @@ body{
 
 
 .landing-page{
+
     color: white;
     padding-top: 10%;
 }
@@ -46,8 +47,42 @@ body{
 
 
 .portfolio-item{
+
     width: 100%;
     height: 200px; 
-    background-color: blue;
-    margin-bottom: 2rem;
+    /* background-color: blue; */
+    margin-bottom: 1rem;
+    
 }
+
+.portfolio-description{
+
+    color: white; 
+    border: 4px solid white; 
+    font-size: 2em;
+    font-weight: bolder;
+    width: 90%;
+    height: 90%;
+    margin: 2em auto 0 auto;
+    text-align: left;
+}
+
+.portfolio-description h3{ 
+    
+    margin-top: 2rem;     
+    padding-left: .2em; 
+}
+
+.grey-portfolio{
+
+    background-color: url("../images/portfolio/work1.jpg");
+}
+
+.grey-portfolio{ background-image: url("../images/portfolio/work1.jpg"); }
+.mighty-portfolio{ background-image: url("../images/portfolio/work2.jpg"); }
+.orange-portfolio{ background-image: url("../images/portfolio/work3.jpg"); }
+.brave-portfolio{ background-image: url("../images/portfolio/work4.jpg"); }
+.good-portfolio{ background-image: url("../images/portfolio/work5.jpg"); }
+.ems-portfolio{ background-image: url("../images/portfolio/work6.jpg"); }
+.burned-portfolio{ background-image: url("../images/portfolio/work7.jpg"); }
+.bailey-portfolio{ background-image: url("../images/portfolio/work8.jpg"); }

@@ -1,4 +1,5 @@
 body{
+
     margin: 0;
     padding: 0;
     line-height: 2;
@@ -6,6 +7,7 @@ body{
 }
 
 .full-width{
+
     background-image: url("../images/backgrounds/h_img.jpg"); 
     height: 100vh;
     width: 100vw;
@@ -24,18 +26,20 @@ body{
 
 #scroll-img{ margin-top: 15rem; }
 
+.about-us{ height: 40vh; }
 
-
-
-.about-us{
-
-    height: 40vh;
-
-}
 
 .services{
-    
+
     color: white;
     height: 50vh;
     padding-top: 2.5rem;
+}
+
+
+.card img{
+
+    width: 60px; 
+    height: 60px; 
+    margin: 0 auto;
 }

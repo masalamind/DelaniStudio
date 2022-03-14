@@ -1,14 +1,24 @@
-.full-width{
+body{
+    margin: 0;
+    padding: 0;
 
+}
+
+.full-width{
+    background-image: url("../images/backgrounds/h_img.jpg"); 
     height: 100vh;
     width: 100vw;
 }
 
 
-// Background images
-
-.landing-page{ background-image: url("../images/backgrounds/h_img.jpg"); }
-
 .services { background-image: url("../images/backgrounds/s_image.jpg");}
 
 .email { background-image: url("../images/backgrounds/c_image.jpg"); }
+
+
+.landing-page{
+    color: white;
+    padding-top: 10%;
+}
+
+#scroll-img{ margin-top: 15rem; }

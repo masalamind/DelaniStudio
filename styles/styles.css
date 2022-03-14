@@ -8,6 +8,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+h2{ font-size: 1.8em !important; }
+
+
 .full-width{
 
     background-image: url("../images/backgrounds/h_img.jpg"); 
@@ -124,6 +129,12 @@ form input, textarea{
     color: white; 
 }
 
+#email-btn{
+    backgroung-color: white;
+    border: none; 
+    color: black;
+}
+
 form label{ color: white; }
 
 form input{ width: 100%;}
@@ -131,7 +142,7 @@ form input{ width: 100%;}
 footer ul li{ display: inline-flex; }
 
 
-.card-text{
+.card-body{
     display: none;
 }
 

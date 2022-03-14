@@ -7,18 +7,16 @@ $(".portfolio-item").click(function(){
 
    
     console.log($('#' + termDefinitionId));    
-    $('#' + termDefinitionId).show(1000);   
-
-
-})
-
-
-
-
-$(".card-text").click(function(){     
+    $('#' + termDefinitionId).toggle(1000);  
     
-    let termId = $(this).attr("id");
-    $('#' + termId).hide(1000);   
-   
-
+    
 })
+
+
+
+
+
+
+
+
+

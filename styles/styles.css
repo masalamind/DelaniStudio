@@ -93,6 +93,14 @@ body{
     border: 10px solid white; 
 }
 
+.portfolio-item-spacer:hover{ 
+
+    background-color: rgba(0,0,0,.8);
+    border: 10px solid white; 
+}
+
+
+
 .grey-portfolio{ background-image: url("../images/portfolio/work4.jpg"); }
 .mighty-portfolio{ background-image: url("../images/portfolio/work3.jpg"); }
 .orange-portfolio{ background-image: url("../images/portfolio/work2.jpg"); }

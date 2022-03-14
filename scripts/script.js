@@ -14,13 +14,10 @@ $(document).ready(function() {
     $(".portfolio-item").click(function(){     
     
         let termId = $(this).attr("id");
-        let termDefinitionId = termId + "-desc";
-    
+        let termDefinitionId = termId + "-desc";     
        
-        console.log($('#' + termDefinitionId));    
         $('#' + termDefinitionId).toggle(1000);  
-        
-        
+                
     })
 
     
@@ -41,7 +38,7 @@ $(document).ready(function() {
 
         if (alertTrigger) {
             alertTrigger.addEventListener('click', function () {
-            alert(name + " ,we have received your message. Thank you for reaching out to us", 'success')
+            alert(name + " ,we have received your message. Thank you for reaching out to us", 'success');
 
             })
         }    

@@ -58,6 +58,7 @@ h2{ font-size: 2em !important; }
 }
 
 .card{ border: none; }
+
 .card img{
 
     height: 60px; 
@@ -93,10 +94,10 @@ h2{ font-size: 2em !important; }
     height: 80%;
     background: rgba(0,0,0,0.6);
     color: white; 
-
 }
 
-.portfolio-description h3{   
+.portfolio-description h3{
+
     margin-top: 2rem;     
     padding-left: .2em; 
 
@@ -105,6 +106,7 @@ h2{ font-size: 2em !important; }
 .grey-portfolio{ background-color: url("../images/portfolio/work1.jpg"); }
 
 .portfolio-item-spacer{  
+
     border: 10px solid white;
     position: relative;
 
@@ -118,7 +120,6 @@ h2{ font-size: 2em !important; }
 
 .portfolio-img{
     display: block; 
- 
 
 }
 
@@ -148,6 +149,7 @@ form input, textarea{
 }
 
 #email-btn{
+    
     background-color: white;
     border: none; 
     color: black;
